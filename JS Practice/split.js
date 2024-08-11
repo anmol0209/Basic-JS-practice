@@ -6,7 +6,6 @@ console.log("=================.slpit()=================");
 
 const link = "https://example.com/search?query=example&filter=recent&sort=asc"
 
-
 function URLobj(url){
     const splitURL = url.split("?")
     const splitagain = splitURL[1].split("&")
