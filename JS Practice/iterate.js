@@ -2,27 +2,7 @@ console.log("JS Script start")
 
 console.log("=================String Methods=================");
 
-console.log("=================.slpit()=================");
-
-const link = "https://example.com/search?query=example&filter=recent&sort=asc"
-
-function URLobj(url){
-    const splitURL = url.split("?")
-    const splitagain = splitURL[1].split("&")
-    const newObj = {}
-    
-    splitagain.forEach(item => {
-    let [key, value] = item.split("=")
-    
-     newObj[key] = value
-    })
-    console.log(newObj)
-}
-
-URLobj(link)
-
-console.log("=================end .slpit()=================");
-
+console.log("=================.forEach and Map()=================");
 
 const egArray = [2, 5, 6, "nse", "bse", "dowJones", "TSE"]
 
